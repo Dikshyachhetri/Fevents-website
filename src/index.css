@@ -1,3 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#grad1 {
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(92, 141, 137));
+}
+.a-contest{
+position: absolute;
+width: 524px;
+height: 169px;
+left: 225px;
+top: 827px;
+
+background: #ECECEC;
+border-radius: 4px;
+}
+
+.b-contest{
+  position: absolute;
+width: 524px;
+height: 169px;
+left: 225px;
+top: 1008px;
+
+background: #ECECEC;
+border-radius: 4px;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +39,932 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.btn-light{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+
+position: absolute;
+width: 286px;
+height: 54px;
+left: 567px;
+top: 251px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+border-radius: 2px;
+transition: 0.5s;
+
+}
+
+.c-contest{
+  position: absolute;
+width: 524px;
+height: 169px;
+left: 225px;
+top: 1188px;
+
+background: linear-gradient(180deg, rgb(240, 238, 238) 10.88%, #FFFFFF 92.9%);
+border-radius: 4px;;
+}
+
+.community-head{
+  color: #FF8C42;
+  font-family:ubuntu;
+  font-weight: bold;
+}
+.contests-column{
+position: absolute; bottom: 520px; right: 1390px;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.dancing-img{
+position: absolute;
+width: 139px;
+height: 126px;
+left: 20px;
+top: 20px;
+border-radius: 4px;
+}
+
+.dead-pool{
+position: absolute;
+width: 198px;
+height: 197px;
+left: 580px;
+top: 1265px;
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.deadpool-img{
+  position: absolute;
+width: 139px;
+height: 126px;
+left: 20px;
+top: 15px;
+
+background-color:  #FF3C38;
+border-radius: 4px;
+}
+
+
+.demon-rui{
+  position: absolute;
+width: 325px;
+height: 413px;
+left: 234px;
+top: 1050px;
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+
+.event-head{
+  color: #FF8C42;
+  font-family:ubuntu;
+  font-weight: bold;
+}
+
+.event-img1{
+  width: 50%;
+}
+
+.feather-img{
+  position: absolute;
+  width: 200px;
+  padding-top: 70px;
+  padding-left: 10px;
+}
+
+.festive-celeb{
+position: absolute; 
+width: 100%;
+height: 701px;
+top: 1550px;
+
+background: rgba(255, 218, 188, 0.33);
+
+}
+
+.fevent-first{
+position: absolute;
+width: 127px;
+height: 41px;
+left: 221px;
+top: 51px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 41px;
+
+color: #FF8C42;
+}
+
+.fevent-second{
+  position: absolute;
+width: 365px;
+height: 19px;
+left: 221px;
+top: 204.08px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+
+.fevent-third{
+  position: absolute;
+width: 410px;
+height: 88px;
+left: 218px;
+top: 234.08px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 44px;
+display: flex;
+align-items: center;
+
+color: #EB6108;
+}
+
+.fevent-fourth{
+  position: absolute;
+width: 384px;
+height: 93px;
+left: 221px;
+top: 334.08px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.fevents-home{
+
+ position: relative;
+width: 100%;
+height: 701px;
+right: 20px;
+top: 600px;
+/* 
+background: rgba(255, 218, 188, 0.33); */
+} 
+
+.first-bunch{
+  position: absolute;
+bottom: 600px;
+
+
+
+}
+
+.first-buttons{
+  position: relative; bottom: 10px;
+}
+
+.first-contest{
+position: absolute;
+width: 314px;
+height: 65px;
+left: 0px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.65);
+
+}
+
+.first-highlight{
+position: absolute;
+width: 162px;
+height: 19px;
+left: 808px;
+top: 929px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+
+.first-line{
+
+  position: absolute;
+width: 346px;
+height: 19px;
+left: 537px;
+top: 60px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.first-part{
+ position: absolute;
+width: 346px;
+height: 19px;
+left: 525px;
+top: 70px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+;
+
+}
+ 
+.first-register{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 5px 16px;
+white-space: pre-line;
+font-size: 15px;
+align-content: center;
+
+
+position: absolute;
+width: 186px;
+height: 42px;
+right: 940px;
+bottom: 66px;
+background: #FF3C38;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+border-radius: 2px;
+
+
+
+
+}
+
+.first-title{
+  position: absolute;
+width: 258px;
+height: 29px;
+left: 180px;
+top: 30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+.harley-queen{
+  position: absolute;
+width: 197px;
+height: 197px;
+left: 1020px;
+top: 1050px;
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.highlights-fevent{
+position:absolute; bottom:525px; right: 30px;
+width: 100%;
+}
+
+.highlights-register{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 12px 16px;
+white-space: pre-line;
+font-size: 15px;
+
+position: absolute;
+width: 185px;
+height: 42px;
+left: 810px;
+top: 1120px;
+
+background: #FF3C38;
+color: #FFFFFF;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+border-radius: 2px;
+}
+
+
+.hotel-img{
+  width: 180px;
+  padding-bottom: 170px;
+  padding-left: 20px;
+}
+
+.hotel-img-2{
+  width: 120px;
+  padding-bottom: 180px;
+  position: relative; left: 20px;
+}
+
+.iron-man{
+
+  position: absolute;
+width: 197px;
+height: 197px;
+left: 1020px;
+top: 1265px;
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.learn-more{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 5px 16px;
+white-space: pre-line;
+
+position: absolute;
+width: 123px;
+height: 42px;
+left: 427px;
+bottom: 82px;
+
+
+/* Neutral/1 */
+
+background: #FFFFFF;
+/* Neutral/5 */
+
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+border-radius: 2p;
+}
+
+.manga-page{
+  color: #FF8C42;
+  font-family:ubuntu;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nabil-img{
+width: 200px;
+padding-bottom: 150px;
+
+}
+
+.nav-bar{
+ position: absolute;
+width: 351px;
+height: 22px;
+left: 865px;
+bottom: 1250px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 137% */
+
+text-align: center;
+;
+ 
+}
+.news-fevent{
+  color: #FF8C42;
+  font-family:ubuntu;
+  font-weight: bold;
+}
+
+.nibl-img{
+width: 110px;
+padding-bottom: 180px;
+padding-left: 30px;
+
+}
+
+.nibl-img-2{
+width: 50px;
+padding-bottom: 180px;
+position: relative; left:10px;
+
+
+
+}
+
+.one-piece{
+  position: absolute;
+width: 198px;
+height: 197px;
+left: 580px;
+top: 1050px;
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 4px;;
+}
+
+.partner-names{
+position: absolute; top: 2300px; left: 90px;
+height: 70%;
+
+
+}
+
+.partner-head{
+text-align: center;
+position: absolute;left: 520px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+ .photo-grid{
+   position: relative; bottom: 830px; right: 25px;
+ }
+
+.pulse-img{
+width: 370px;
+padding-left: 160px;
+padding-bottom: 170px;
+}
+
+.pulse-img-2{
+width: 150px;
+position: relative;right:10px;
+padding-bottom: 170px;
+}
+
+.rectangle-box{
+position: absolute; left: 760px;
+width:610px;
+height: 730px;
+right: 220px;
+bottom:612px;
+
+background: #FF8C42;
+}
+
+.reg-form{
+  background-color: transparent;
+}
+
+.reg-head{
+  
+  font-family:ubuntu;
+  font-weight: bold;
+}
+
+.register-here{
+ 
+position: relative;
+width: 134px;
+height: 22px;
+top: 10px;
+
+
+/* p14 */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+text-align: center;
+
+color: #FF8C42;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.register-event{
+position: absolute;
+width:100%;
+height: 460px;
+top: 2590px;
+
+background: #FF8C42;
+ }
+
+ .second-line{
+   color:#FF3C38;
+ }
+
+.second-contest{
+  position: absolute;
+width: 314px;
+height: 65px;
+left: 0px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.65);
+}
+
+.second-highlight{
+  position: absolute;
+width: 410px;
+height: 44px;
+left: 805px;
+top: 950px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 44px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #EB6108;
+
+}
+
+.second-line{
+  position: absolute;
+width: 862px;
+height: 100px;
+left: 360px;
+top: 90px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FF3C38;
+}
+
+.second-part{
+position: absolute;
+width: 862px;
+height: 100px;
+left: 315px;
+top: 113px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+;
+ 
+
+}
+
+.second-title{
+position: absolute;
+width: 267px;
+height: 29px;
+left: 180px;
+top: 30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+ 
+.singing-img{
+position: absolute;
+width: 139px;
+height: 126px;
+left: 20px;
+top: 20px;
+
+background-color: #FF3C38;
+border-radius: 4px;
+
+}
+
+.spider-man{
+position: absolute;
+width: 197px;
+height: 197px;
+left: 800px;
+top: 1050px;
+
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.text-center{
+ 
+position: absolute;
+width: 100%;
+height: 60px;
+left: 130px;
+top: 3100px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.65);;
+
+}
+
+.third-contest{
+  position: absolute;
+width: 314px;
+height: 65px;
+left: 0px;
+top: 40px;
+white-space:pre-line;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.65);
+}
+
+.third-highlight{
+  position: absolute;
+width: 384px;
+height: 93px;
+left: 808px;
+top: 1011px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.third-title{
+position: absolute;
+width: 258px;
+height: 29px;
+left: 180px;
+top: 20px;
+white-space: nowrap;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+.upper-three{
+position: absolute;
+bottom: 500px; left: 230px;
+}
+
+.vector-downward{
+  position: absolute;
+left: 49.84%;
+right: 48.45%;
+top: 150.59%;
+
+
+
+}
+
+.vector-upward{
+  position: absolute;
+left: 47.84%;
+right: 48.45%;
+top: 150.59%;
+
+}
+
+ .youtube-video{
+   
+position:absolute; left: 610px; top: 200px;
+padding-left: 1.25%;
+height: 415px !important;
+width: 550px !important;
+z-index: 1;
+
+ }
+
+ .wolverine-dc{
+   position: absolute;
+width: 197px;
+height: 197px;
+left: 800px;
+top: 1265px;
+border: 1px solid #D9D9D9;
+box-sizing: border-box;
+border-radius: 4px;
+ }
+
+
+ /* Registration CSS */
+
+ .divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+/* Registration from */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  text-align: center;
+}
+
+
+
+
