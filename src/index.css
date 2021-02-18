@@ -856,7 +856,7 @@ top: 150.59%;
 
  .youtube-video{
    
-position:absolute; left: 610px; top: 200px;
+position:absolute; left: 610px; bottom: 690px;
 padding-left: 1.25%;
 height: 415px !important;
 width: 550px !important;

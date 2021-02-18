@@ -16,10 +16,6 @@ const App = () => {
   return (
     <Router>
     
-    <ReactPlayer className="youtube-video"
-      url="https://youtu.be/AHiAS6eMu_A">
-    </ReactPlayer>
-
 
          <Route path="/register" component={RegisterEvent} />
          <Route path="/" component={Home} exact/>

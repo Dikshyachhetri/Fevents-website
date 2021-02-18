@@ -1,6 +1,7 @@
 import React from 'react'
 import {Col, Navbar, Nav, Container} from 'react-bootstrap';
 import {Link} from "react-router-dom";
+import ReactPlayer from 'react-player';
 
 const Fevents = () => {
     return (
@@ -21,6 +22,9 @@ const Fevents = () => {
          </Col>
          <dev className="rectangle-box"></dev>
 
+<ReactPlayer className="youtube-video"
+      url="https://youtu.be/AHiAS6eMu_A">
+    </ReactPlayer>
 
          
 
